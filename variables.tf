@@ -1,6 +1,7 @@
 variable "project_id" {
   description = "GCP Project ID"
   type        = string
+  default     = "lab-devops-cloud-clc10-409804"
 }
 
 variable "region" {
